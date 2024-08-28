@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio </title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/IMAGES/logo  in.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#servicers">Skills</a></li>
+                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi,I'm <span> Dinesh Mahendran </span></h1>
+                <div class="social-icons-fst">
+                    <a href="https://www.linkedin.com/in/dinesh-mahendran2001/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/DineshMahendran-2001?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.naukri.com/mnjuser/profile?id=&altresid"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .................about................ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/IMAGES/Dinesh Mahendran.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>&nbsp;&nbsp;&nbsp;Hi,I'm
+                        <strong>Dinesh M</strong> from Dindigul. I completed
+                        my graduation in <b>Bachelor of Engineering (B.E)</b>
+                        in 2023 with a
+                        <b>CGPA of 7.7 (Percentage 73.15%)</b>.</p>
+                        <br>&nbsp;&nbsp;&nbsp;Seeking an entry-level position in the IT sector where I can apply my academic knowledge and technical skills to assist in the development and implementation of software solutions, while continuously learning and growing within the organization.<br>
+                        <br><b><p class="tab-links active-link" ><b>Accomplishment</b></p></b> <br>
+                        <br> Completed <b>Java Full Stack Development course</b> at Qspiders (2024). <br>
+                        <br> Achieved an <b>Advanced Diploma in Computer Programming (Java)</b> at CADD CAE (2022). <br>
+                        <br> Attended 3D printing workshop and Non Destructive Testing. <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"><b>Education</b></p>
+                    </div>
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>U.G Degree B.E (2019-2023)</span><br><p class="txt">PSNA College of Engineering and Technology (73.15%).</p></li>
+                            <!-- <li><span>Higher Secondary School Certificate(2018-2019)</span><br><p class="txt">SMBM Matric Higher Secondary School  (60.5%)</p></li>
+                            <li><span>Secondary School Leaving Certificate(2016-2017)</span><br><p class="txt" >SDA Matric Higher Secondary School  (82.2%)</p></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ...............Skills.............. -->
+    <div id="servicers">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                </div>
+                <div>
+                    <i class="fa-regular fa-file-code"></i>
+                    <h2>CSS</h2>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JavaScript</h2>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>React JS</h2>
+                </div>
+                <!-- <div>
+                    <i class="fa-brands fa-wordpress-simple"></i>
+                    <h2>Word Press</h2>
+                </div> -->
+                <div>
+                    <i class="fa-brands fa-java"></i>                    
+                    <h2>J2EE</h2>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h2>Manual testing</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..........portfolio........... -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/IMAGES/Spotstar.png" alt="">
+                    <div class="layer">
+                        <h3>Spotstar App</h3>
+                        <p>Developed a multimedia streaming platform combining the music streaming functionality of Spotify with the video streaming capabilities of Hotstar (Spotstar).</p>
+                        <p>Live Demo</p>
+                        <a href="https://spotstar-app.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/IMAGES/Zomato.png" alt="">
+                    <div class="layer">
+                        <h3>Zomato-webpage</h3>
+                        <p>The Zomato Clone is a project that replicates the popular food delivery application Zomato, featuring various pages such as the home page, user profile, food selection, and order pages, built primarily using HTML,CSS,and,Javascript and designed to provide a similar user experience with static data and dynamic functionalities.</p>
+                        <h4>Live Demo</h4>
+                        <a href="https://webpage-zomato.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/IMAGES/Ajio.png" alt="">
+                    <div class="layer">
+                        <h3>Ajio-webpage</h3>
+                        <p>The Ajio Clone is a project that replicates the popular e-commerce website Ajio, developed as part of various web development courses, featuring a landing page, login and signup functionality, product pages for men, women, and kids, interactive features like login validation, product sorting, filtering by categories, a cart feature, and payment checkout, using technologies such as HTML, CSS, JavaScript.</p>
+                        <h4>Live Demo</h4>
+                        <a href="https://ajio-webpage.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/IMAGES/Pricing.png" alt="">
+                    <div class="layer">
+                        <h3>Pricing chart-Promo</h3>
+                        <p>A pricing chart webpage is designed to showcase various pricing plans for products or services in a clear and attractive format, allowing customers to easily compare features, costs, and options at a glance.</p>
+                        <h4>Live Demo</h4>
+                        <a href="https://pricing-ad.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/IMAGES/Google.png" alt="">
+                    <div class="layer">
+                        <h3>Google-webpage</h3>
+                        <p>The Google Clone webpage is a project that replicates the design and functionality of the Google homepage using HTML, CSS, and JavaScript, allowing users to perform searches and experience a similar interface to the original site.</p>
+                        <h4>Live Demo</h4>
+                        <a href="https://webpage-google.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/IMAGES/Instagram.png" alt="">
+                    <div class="layer">
+                        <h3>Instagram-webpage</h3>
+                        <p>The Instagram Clone login page is a project that replicates the design and functionality of the original Instagram login interface using HTML and CSS, providing a responsive and visually appealing user experience.</p>
+                        <h4>Live Demo</h4>
+                        <a href="https://intagram-loginpage.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/IMAGES/history-of-java-programming-language.jpg" alt="">
+                    <div class="layer">
+                        <h3>Hotel Room Reservation System</h3>
+                        <p>A hotel room reservation system is a software platform that enables hotels to manage bookings, check-in guests, and accept direct reservations through various channels, allowing guests to schedule their stays, select room types, and make payments online.</p>
+                        <h4>Live Demo</h4>
+                        <a href="https://github.com/DineshMahendran-2001/Hotel-Room-Reservation-system.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .............contact............... -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a href="mailto:dineshmahendran2001@gamil.com" class="link"><p><i class="fa-solid fa-paper-plane"></i>dineshmahendran2001@gmail.com</p></a>
+                    <a href="tel:+919360069197" class="link"><p><i class="fa-solid fa-square-phone"></i>9360069197</p></a>
+                    <div class="social-icons">
+                        <a href="mailto:dineshmahendran2001@gamil.com"><i class="fa-solid fa-paper-plane"></i></a>
+                        <a href="https://www.linkedin.com/in/dinesh-mahendran2001/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/9360069197"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="tel:+919360069197"><i class="fa-solid fa-square-phone-flip"></i></a>
+                    </div>
+                    <a href="/IMAGES/Dinesh04.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Made By Dinesh Mahendran </p>
+        </div>
+    </div>
+
+
+    <script>
+        
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwqUZmDpflb2mWiiOZyKLjuFtMN9xiAjHDcnpYz4c4olBz0fZarPFCab3cGarEn2XHHAw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message send successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
