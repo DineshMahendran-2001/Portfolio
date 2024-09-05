@@ -28,5 +28,5 @@ The Portfolio project is a personal website designed to showcase my skills, proj
 [https://github.com/DineshMahendran-2001/Portfolio.git](https://github.com/DineshMahendran-2001/Portfolio.git)
 
 # Contact
-For any inquiries or feedback, please contact the project maintainer at [dineshmahendran2001@gmail.com](dineshmahendran2001@gmail.com).
+For any inquiries or feedback, please contact the project maintainer at [dineshmahendran2001@gmail.com](mailto:dineshmahendran2001@gmail.com).
 
