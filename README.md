@@ -23,7 +23,7 @@ The Portfolio project is a personal website designed to showcase my skills, proj
 4. Use the contact form to send me a message or inquiry.
 
 # Note
-- This project is a static portfolio and does not include any backend functionality. The contact form may require additional setup to handle form submissions.
+- This project is a dynamic portfolio and does not include any backend functionality. The contact form may require additional setup to handle form submissions.
 - Alternatively, you can view the live demo of the project hosted on GitHub Pages at: 
 [https://github.com/DineshMahendran-2001/Portfolio.git](https://github.com/DineshMahendran-2001/Portfolio.git)
 
